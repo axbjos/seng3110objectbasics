@@ -1,1 +1,1 @@
-# seng3110oobasics
+# SENG Object Oriented Basics
