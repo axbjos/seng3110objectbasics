@@ -26,10 +26,37 @@ Then run with:
 
 Try it with the following input:
 
-```  Enter side 1:
+```  
+Enter side 1:
 1
 Enter side 2:
 1
 Enter side 3:
 1
-This is a triangle. ```
+This is a triangle. 
+```
+
+The objective of the assignment is to implement JUnit4 Unit Tests for the two methods in the Demo.java class.
+
+DemoTestIsTriangle.java contains two unit tests for the *isTriangle* static method.
+
+One tests for a "true" condition by passing 1,1,1 to the method.
+The other tests for a "false" condition by passing 2,2,0
+
+### isTriangle Unit Tests
+
+Compile the isTriangle Unit Test class by doing the following:
+
+Unix Systems:
+``` javac -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar DemoTestIsTriangle.java ```
+
+Windows Systems (Powershell or CMD):
+``` javac -cp .;junit-4.13.2.jar;hamcrest-core-1.3.jar DemoTestIsTriangle.java ```
+
+Run the Unit Tests by having the JUnit runner invoke the test methods:
+
+Unix Systems:
+``` java -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" org.junit.runner.JUnitCore DemoTestIsTriangle ```
+
+Windows Systems (Powershell or CMD)
+``` java -cp ".;junit-4.13.2.jar;hamcrest-core-1.3.jar" org.junit.runner.JUnitCore DemoTestIsTriangle ```
