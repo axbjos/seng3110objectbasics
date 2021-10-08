@@ -10,8 +10,9 @@ First and foremost make sure you have a Java JDK installed on your system.
 
 From a command line both the **javac** (Java Compile) and **java** (Java Run) should work.
 
-###Clone This Repo
-Pick a location on your computer and clone the repo:
+### Clone This Repo
+
+Pick a location on your computer and clone this repo:
 
 ``` git clone https://github.com/axbjos/seng3110objectbasics.git ```
 
