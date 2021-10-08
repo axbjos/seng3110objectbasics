@@ -4,7 +4,7 @@
 
 ### Sample Code for Canvas Lab 3 (the "first" Coursera Week 1 JUnit Lab)
 
-This repository contains the code necessary to complete Lab 3
+This repository contains the code necessary to complete **Lab 3**
 
 Pick a location on your computer and clone the repo:
 
@@ -50,7 +50,7 @@ Enter side 3:
 This is not a triangle. 
 ```
 
-The objective of the Lab 4 is to implement JUnit4 tests for the two methods in the Demo.java class: *main* and *isTriangle*
+The objective of the **Lab 3** is to implement JUnit4 tests for the two methods in the Demo.java class: *main* and *isTriangle*
 
 DemoTestIsTriangle.java contains **two** unit tests for the *isTriangle* static method.
 
@@ -91,7 +91,7 @@ Since there were no errors, both unit tests passed.
 
 Compile and run the Main Method Unit Test by doing the following
 
-**Compile** the *isTriangle* Unit Test class by doing the following:
+**Compile** the *main* Unit Test class by doing the following:
 
 Unix Systems:
 ``` javac -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar DemoTestMain.java ```
