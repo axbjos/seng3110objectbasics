@@ -10,27 +10,29 @@ First and foremost make sure you have a Java JDK installed on your system.
 
 From a command line both the **javac** (Java Compile) and **java** (Java Run) should work.
 
+
 ### Clone This Repo
 
 Pick a location on your computer and clone this repo:
 
 ``` git clone https://github.com/axbjos/seng3110objectbasics.git ```
 
+
 ### Get the Required JUnit Jar Files
 
-Two files are required to compile and run JUnit Tests.
+Two Java **jar** files are required to compile and run JUnit Tests.
 
-They can be obtain from the JUnit website:
+They can be obtained from the JUnit website:
 
 www.junit.org
 
-JUnit 4 will be used for this Lab.  After navigating to the junit.org, look in the upper right for a link to JUnit 4 and click on it.
+***JUnit Version 4** (not the latest 5) will be used for this Lab.  After navigating to junit.org, look in the upper right of the page for a link to JUnit 4 and click on it.
 
-Look under "Welcom" and look for the link "Download and Install"
+Look under "Welcome" and then look for "Download and Install"
 
-Download the required jar's are "Plain-old JAR.  Click each link separately to download the junit and hamcrest jar.
+Download the required jar's as **Plain-old JAR**.  Click each link separately to download the **junit** and **hamcrest jar**
 
-Again, you are looking for and downloading the simple .jar files.  If downloaded correctly you should have the following on your computer.
+*Again, you are looking for and downloading the JUnit4 .jar files.*  If downloaded correctly you should have the following on your computer.
 
 (current versions as of 10/8/2021 - they will no doubt change over time...)
 
