@@ -57,6 +57,10 @@ The objective of the **Lab 3** is to implement JUnit4 tests for the two methods 
 - One tests for a "true" condition by passing 1,1,1 to the method.
 - The other tests for a "false" condition by passing 2,2,0
 
+**DemoTestMain.java" contains one unit test for testing the CLI User Interface.
+
+Refer to comments in **DemoTestMain.java" for details on how the Unit Test is implemented
+
 ### isTriangle Unit Tests
 
 **Compile** the *isTriangle* Unit Test class by doing the following:
