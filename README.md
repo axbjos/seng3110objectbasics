@@ -85,14 +85,14 @@ This is not a triangle.
 
 The objective of the **Lab 3** is to implement JUnit4 tests for the two methods in the Demo.java class: *main* and *isTriangle*
 
-**DemoTestIsTriangle.java** contains **two** unit tests for its *isTriangle* static method.
+**DemoTestIsTriangle.java** contains **two** unit tests for the *isTriangle* static method in class Demo.
 
 - One tests for a "true" condition by passing 1,1,1 to the method.
 - The other tests for a "false" condition by passing 2,2,0
 
-**DemoTestMain.java** contains **one** unit test for testing the CLI User Interface.
+**DemoTestMain.java** contains **one** unit test for testing the CLI User Interface implement in the main method in class Demo.
 
-Refer to comments in **DemoTestMain.java" for details on how the Unit Test is implemented
+Refer to comments in the .java source code for details on how the Unit Tests are implemented
 
 ### isTriangle Unit Tests
 
