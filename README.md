@@ -94,7 +94,7 @@ The objective of the **Lab 3** is to implement JUnit4 tests for the two methods 
 
 Refer to comments in the .java source code for details on how the Unit Tests are implemented
 
-### isTriangle Unit Tests
+### Demo Class: isTriangle Unit Tests
 
 **Compile** the *isTriangle* Unit Test class by doing the following:
 
@@ -128,7 +128,7 @@ OK (2 tests)
 
 Since there were no errors, both unit tests passed.
 
-### Main Method Unit Test
+### Demo Class: Main Method Unit Test
 
 Compile and run the Main Method Unit Test by doing the following
 
