@@ -16,10 +16,20 @@ It is a simple program with two static methods:
 
 - A method named "isTriangle" that computes if the lengths of the sides create a triangle.  The method returns a simple boolean true or false.
 
-Compile this code and test using the following:
+Compile this code using the following:
 
-java Demo.java
+``` java Demo.java ```
 
 Then run with:
 
-java Demo
+``` java Demo ```
+
+Try it with the following input:
+
+```  Enter side 1:
+1
+Enter side 2:
+1
+Enter side 3:
+1
+This is a triangle. ```
