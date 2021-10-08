@@ -6,17 +6,21 @@
 
 This repository contains the code necessary to complete Lab 3
 
-### Demo.java File
+Pick a location on your computer and clone the repo:
 
-This is the source Java class that is to be unit tested.
+``` git clone https://github.com/axbjos/seng3110objectbasics.git ```
+
+### Demo.java
+
+This is the source Java class that is to be unit tested:  the "class under test"
 
 It is a simple program with two static methods:
 
-- A main method that includes code that prompts the user for the lengths of three sides.  
+- A main method that with code that prompts the user for the lengths of the three sides of a triangle.  
 
-- A method named "isTriangle" that computes if the lengths of the sides create a triangle.  The method returns a simple boolean true or false.
+- A method named *isTriangle* that computes if the lengths of the sides would actually create a triangle.  The method returns a simple boolean *true* or *false*.
 
-Compile this code using the following:
+Compile this Demo.java class using the following:
 
 ``` java Demo.java ```
 
@@ -36,12 +40,22 @@ Enter side 3:
 This is a triangle. 
 ```
 
-The objective of the assignment is to implement JUnit4 Unit Tests for the two methods in the Demo.java class.
+```  
+Enter side 1:
+1
+Enter side 2:
+1
+Enter side 3:
+0
+This is not a triangle. 
+```
 
-DemoTestIsTriangle.java contains two unit tests for the *isTriangle* static method.
+The objective of the Lab 4 is to implement JUnit4 tests for the two methods in the Demo.java class: *main* and *isTriangle*
 
-One tests for a "true" condition by passing 1,1,1 to the method.
-The other tests for a "false" condition by passing 2,2,0
+DemoTestIsTriangle.java contains **two** unit tests for the *isTriangle* static method.
+
+- One tests for a "true" condition by passing 1,1,1 to the method.
+- The other tests for a "false" condition by passing 2,2,0
 
 ### isTriangle Unit Tests
 
