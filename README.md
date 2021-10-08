@@ -59,7 +59,7 @@ DemoTestIsTriangle.java contains **two** unit tests for the *isTriangle* static 
 
 ### isTriangle Unit Tests
 
-Compile the isTriangle Unit Test class by doing the following:
+**Compile** the *isTriangle* Unit Test class by doing the following:
 
 Unix Systems:
 ``` javac -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar DemoTestIsTriangle.java ```
@@ -67,10 +67,56 @@ Unix Systems:
 Windows Systems (Powershell or CMD):
 ``` javac -cp .;junit-4.13.2.jar;hamcrest-core-1.3.jar DemoTestIsTriangle.java ```
 
-Run the Unit Tests by having the JUnit runner invoke the test methods:
+**Run** the Unit Tests by having the JUnit *runner* invoke the test methods:
 
 Unix Systems:
 ``` java -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" org.junit.runner.JUnitCore DemoTestIsTriangle ```
 
 Windows Systems (Powershell or CMD)
 ``` java -cp ".;junit-4.13.2.jar;hamcrest-core-1.3.jar" org.junit.runner.JUnitCore DemoTestIsTriangle ```
+
+The following output should be displayed.  If not...you did something wrong....check your work!
+
+```
+JUnit version 4.13.2
+..
+Time: 0.008
+
+OK (2 tests)
+```
+
+Since there were no errors, both unit tests passed.
+
+## Main Method Unit Test
+
+Compile and run the Main Method Unit Test by doing the following
+
+**Compile** the *isTriangle* Unit Test class by doing the following:
+
+Unix Systems:
+``` javac -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar DemoTestMain.java ```
+
+Windows Systems (Powershell or CMD):
+``` javac -cp .;junit-4.13.2.jar;hamcrest-core-1.3.jar DemoTestMain.java ```
+
+**Run** the Unit Tests by having the JUnit *runner* invoke the test methods:
+
+Unix Systems:
+``` java -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" org.junit.runner.JUnitCore DemoTestMain ```
+
+Windows Systems (Powershell or CMD)
+``` java -cp ".;junit-4.13.2.jar;hamcrest-core-1.3.jar" org.junit.runner.JUnitCore DemoTestMain ```
+
+The following output should be displayed.  If not...you did something wrong....check your work!
+
+```
+JUnit version 4.13.2
+.
+Time: 0.023
+
+OK (1 test)
+```
+
+### Refer to Lab 3 Instructions on Canvas for what to submit!
+
+
