@@ -6,11 +6,16 @@
 
 This repository contains the code necessary to complete **Lab 3**
 
+First and foremost make sure you have a Java JDK installed on your system.
+
+From a command line both the **javac** (Java Compile) and **java** (Java Run) should work.
+
+###Clone This Repo
 Pick a location on your computer and clone the repo:
 
 ``` git clone https://github.com/axbjos/seng3110objectbasics.git ```
 
-### Demo.java
+### Demo.java - The Class Under Test
 
 This is the source Java class that is to be unit tested:  the "class under test"
 
@@ -50,6 +55,8 @@ Enter side 3:
 This is not a triangle. 
 ```
 
+### Unit Testing
+
 The objective of the **Lab 3** is to implement JUnit4 tests for the two methods in the Demo.java class: *main* and *isTriangle*
 
 **DemoTestIsTriangle.java** contains **two** unit tests for its *isTriangle* static method.
@@ -57,7 +64,7 @@ The objective of the **Lab 3** is to implement JUnit4 tests for the two methods 
 - One tests for a "true" condition by passing 1,1,1 to the method.
 - The other tests for a "false" condition by passing 2,2,0
 
-**DemoTestMain.java" contains one unit test for testing the CLI User Interface.
+**DemoTestMain.java** contains **one** unit test for testing the CLI User Interface.
 
 Refer to comments in **DemoTestMain.java" for details on how the Unit Test is implemented
 
@@ -91,7 +98,7 @@ OK (2 tests)
 
 Since there were no errors, both unit tests passed.
 
-## Main Method Unit Test
+### Main Method Unit Test
 
 Compile and run the Main Method Unit Test by doing the following
 
