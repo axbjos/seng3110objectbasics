@@ -16,6 +16,29 @@ Pick a location on your computer and clone this repo:
 
 ``` git clone https://github.com/axbjos/seng3110objectbasics.git ```
 
+### Get the Required JUnit Jar Files
+
+Two files are required to compile and run JUnit Tests.
+
+They can be obtain from the JUnit website:
+
+www.junit.org
+
+JUnit 4 will be used for this Lab.  After navigating to the junit.org, look in the upper right for a link to JUnit 4 and click on it.
+
+Look under "Welcom" and look for the link "Download and Install"
+
+Download the required jar's are "Plain-old JAR.  Click each link separately to download the junit and hamcrest jar.
+
+Again, you are looking for and downloading the simple .jar files.  If downloaded correctly you should have the following on your computer.
+
+(current versions as of 10/8/2021 - they will no doubt change over time...)
+
+- junit-4.13.2.jar
+- hamcrest-core-1.3.jar
+
+**COPY** these two jar files into the directory created by the git clone above.  
+
 ### Demo.java - The Class Under Test
 
 This is the source Java class that is to be unit tested:  the "class under test"
@@ -79,13 +102,13 @@ Unix Systems:
 
 Windows Systems (Powershell or CMD):
 
-``` javac -cp .;junit-4.13.2.jar;hamcrest-core-1.3.jar DemoTestIsTriangle.java ```
+``` javac -cp ".;junit-4.13.2.jar;hamcrest-core-1.3.jar" DemoTestIsTriangle.java ```
 
 **Run** the Unit Tests by having the JUnit *runner* invoke the test methods:
 
 Unix Systems:
 
-``` java -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" org.junit.runner.JUnitCore DemoTestIsTriangle ```
+``` java -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore DemoTestIsTriangle ```
 
 Windows Systems (Powershell or CMD)
 
@@ -113,12 +136,12 @@ Unix Systems:
 ``` javac -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar DemoTestMain.java ```
 
 Windows Systems (Powershell or CMD):
-``` javac -cp .;junit-4.13.2.jar;hamcrest-core-1.3.jar DemoTestMain.java ```
+``` javac -cp ".;junit-4.13.2.jar;hamcrest-core-1.3.jar" DemoTestMain.java ```
 
 **Run** the Unit Tests by having the JUnit *runner* invoke the test methods:
 
 Unix Systems:
-``` java -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" org.junit.runner.JUnitCore DemoTestMain ```
+``` java -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore DemoTestMain ```
 
 Windows Systems (Powershell or CMD)
 ``` java -cp ".;junit-4.13.2.jar;hamcrest-core-1.3.jar" org.junit.runner.JUnitCore DemoTestMain ```
