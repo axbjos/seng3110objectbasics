@@ -74,17 +74,21 @@ Refer to comments in **DemoTestMain.java" for details on how the Unit Test is im
 **Compile** the *isTriangle* Unit Test class by doing the following:
 
 Unix Systems:
+
 ``` javac -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar DemoTestIsTriangle.java ```
 
 Windows Systems (Powershell or CMD):
+
 ``` javac -cp .;junit-4.13.2.jar;hamcrest-core-1.3.jar DemoTestIsTriangle.java ```
 
 **Run** the Unit Tests by having the JUnit *runner* invoke the test methods:
 
 Unix Systems:
+
 ``` java -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" org.junit.runner.JUnitCore DemoTestIsTriangle ```
 
 Windows Systems (Powershell or CMD)
+
 ``` java -cp ".;junit-4.13.2.jar;hamcrest-core-1.3.jar" org.junit.runner.JUnitCore DemoTestIsTriangle ```
 
 The following output should be displayed.  If not...you did something wrong....check your work!
