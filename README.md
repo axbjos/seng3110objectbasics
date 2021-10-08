@@ -135,17 +135,21 @@ Compile and run the Main Method Unit Test by doing the following
 **Compile** the *main* Unit Test class by doing the following:
 
 Unix Systems:
+
 ``` javac -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar DemoTestMain.java ```
 
 Windows Systems (Powershell or CMD):
+
 ``` javac -cp ".;junit-4.13.2.jar;hamcrest-core-1.3.jar" DemoTestMain.java ```
 
 **Run** the Unit Tests by having the JUnit *runner* invoke the test methods:
 
 Unix Systems:
+
 ``` java -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore DemoTestMain ```
 
 Windows Systems (Powershell or CMD)
+
 ``` java -cp ".;junit-4.13.2.jar;hamcrest-core-1.3.jar" org.junit.runner.JUnitCore DemoTestMain ```
 
 The following output should be displayed.  If not...you did something wrong....check your work!
