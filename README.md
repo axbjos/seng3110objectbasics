@@ -26,11 +26,11 @@ They can be obtained from the JUnit website:
 
 www.junit.org
 
-***JUnit Version 4** (not the latest 5) will be used for this Lab.  After navigating to junit.org, look in the upper right of the page for a link to JUnit 4 and click on it.
+**JUnit Version 4** (not the latest version 5) will be used for this Lab.  After navigating to junit.org, look in the upper right of the page for a link to JUnit 4 and click on it.
 
 Look under "Welcome" and then look for "Download and Install"
 
-Download the required jar's as **Plain-old JAR**.  Click each link separately to download the **junit** and **hamcrest jar**
+Download the required jar's as **Plain-old JAR**.  Click each link separately to download the **junit** and **hamcrest** jar files
 
 *Again, you are looking for and downloading the JUnit4 .jar files.*  If downloaded correctly you should have the following on your computer.
 
