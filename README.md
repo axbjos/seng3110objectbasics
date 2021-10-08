@@ -2,7 +2,7 @@
 
 ## Object Oriented & JUnit 4 Basics
 
-### Sample Code for the Coursera Related Labs
+### Sample Code for Canvas Lab 3 (the "first" Coursera Week 1 JUnit Lab)
 
 This repository contains the code necessary to complete Lab 3
 
