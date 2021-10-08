@@ -52,7 +52,7 @@ This is not a triangle.
 
 The objective of the **Lab 3** is to implement JUnit4 tests for the two methods in the Demo.java class: *main* and *isTriangle*
 
-DemoTestIsTriangle.java contains **two** unit tests for the *isTriangle* static method.
+**DemoTestIsTriangle.java** contains **two** unit tests for its *isTriangle* static method.
 
 - One tests for a "true" condition by passing 1,1,1 to the method.
 - The other tests for a "false" condition by passing 2,2,0
